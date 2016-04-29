@@ -1,0 +1,21 @@
+﻿Build started 4/29/2016 3:11:54 PM.
+     1>Project "D:\ECE 114\Blackjack\Blackjack\Blackjack.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\Blackjack.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Blackjack.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Blackjack.cpp
+         Blackjack.cpp
+     1>d:\ece 114\blackjack\blackjack\blackjack.cpp(69): error C2512: 'Cardtype' : no appropriate default constructor available
+     1>d:\ece 114\blackjack\blackjack\blackjack.cpp(70): error C2512: 'Cardtype' : no appropriate default constructor available
+     1>d:\ece 114\blackjack\blackjack\blackjack.cpp(71): error C2512: 'Cardtype' : no appropriate default constructor available
+     1>d:\ece 114\blackjack\blackjack\blackjack.cpp(72): error C2512: 'Cardtype' : no appropriate default constructor available
+     1>d:\ece 114\blackjack\blackjack\blackjack.cpp(75): error C2440: '=' : cannot convert from 'const char *' to 'const char'
+                 There is no context in which this conversion is possible
+     1>d:\ece 114\blackjack\blackjack\blackjack.cpp(76): error C2440: '=' : cannot convert from 'const char *' to 'const char'
+                 There is no context in which this conversion is possible
+     1>d:\ece 114\blackjack\blackjack\blackjack.cpp(98): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Done Building Project "D:\ECE 114\Blackjack\Blackjack\Blackjack.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.00
